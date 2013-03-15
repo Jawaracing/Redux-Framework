@@ -92,7 +92,7 @@ function setup_framework_options() {
     // If only minor tweaks are needed, set to 'custom' and override the necessary styles through the included custom.css stylesheet.
     // If replacing the stylesheet, set to 'none' and don't forget to enqueue another stylesheet!
     // Default: 'standard'
-    //$args['admin_stylesheet'] = 'standard';
+    $args['admin_stylesheet'] = 'custom';
 
     // Add HTML before the form.
     $args['intro_text'] = __('<p>This text is displayed above the options panel. It isn\'t required, but more info is always better! The intro_text field accepts all HTML.</p>', Redux_TEXT_DOMAIN);

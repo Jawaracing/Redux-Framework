@@ -1,6 +1,10 @@
 <?php
+
+// removed by themeic 
+/*
+
 class Redux_Validation_color {
-// this color validation does not work with rgba colors	
+	
 	/**
 	 * Field Constructor.
 	 *
@@ -53,5 +57,5 @@ class Redux_Validation_color {
 			}
         }
 	}
-*/
 }
+*/

@@ -340,6 +340,22 @@ if(!class_exists('Redux_Options') ){
                 time(),
                 true
 			);
+			
+			wp_enqueue_script(
+                'colorpicker-js', 
+                $this->url . 'colorpicker/js/bootstrap-colorpicker.js', 
+                array('jquery'),
+                time(),
+                true
+			);
+			
+			wp_enqueue_script(
+                'themeic-options-js', 
+                $this->url . 'js/themeic-colorpicker-options.js', 
+                array('jquery'),
+                time(),
+                true
+			);
 
             wp_localize_script('redux-opts-js', 'redux_opts', array('reset_confirm' => __('Are you sure? You will lose all custom values.', Redux_TEXT_DOMAIN), 'opt_name' => $this->args['opt_name']));
         

@@ -1,3 +1,14 @@
+# Redux Options Framework v2.0.0 - Added RGBA Colorpicker #
+
+* Added Colorpicker Folder to Redux-Framework-master - http://www.eyecon.ro/bootstrap-colorpicker/
+* Edited Color Field Display
+* Commented out color validation
+* Import custom colorpicker css via import on custom.css
+* Enabled custom.css on options.php ---  $args['admin_stylesheet'] = 'custom';
+* Edited defaults.php to enqueue colorpicker/js/bootstrap-colorpicker.js
+* Edited defaults.php to enqueue js/themeic-colorpicker-options.js (enables the colorpicker)
+* Added color-bg.png image
+
 # Redux Options Framework v2.0.0 #
 
 Wordpress options framework which uses the [WordPress Settings API](http://codex.wordpress.org/Settings_API "WordPress Settings API"), Custom Error/Validation Handling, Custom Field/Validation Types, and import/export functionality.
